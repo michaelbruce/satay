@@ -8,6 +8,26 @@
 ; TODO converting the string to clojure can be a later exercise
 ; for now, manually converting to e.g (and true (not false)) will suffice.
 
+; stages for evaluating a boolean expression
+; 1. set variables (e.g a is true, b is true)
+; 2. evaluate with values
+; 3. if false then repeat steps, true then return until exhausted
+
+; how to know which values to set in step 1? truth table?
+; how can you compute all variations? by knowing the type of value? assume boolean unless otherwise stated.
+
+(defn calculate-all-value-variations [a b]
+  "each variation is calclated by changing one value in each iteration,
+   you can't have a variation repeat"
+  (let variations []
+    )
+  ; true true
+  ; true false
+  ; false false
+  ; false true
+  true
+  )
+
 (and :a (not :b))
 
 ; Case that a formula is satisfiable.
