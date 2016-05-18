@@ -2,9 +2,15 @@
 
 A delicious clojure based SAT solver.
 
-## Usage
+### Background
 
-FIXME
+Prerequisite information on SAT solvers.
+
+SAT solvers are programs that reduce boolean expressions into a true or false state.  
+They evaluate expressions and find whether they can be evaluated or not.
+
+Given the example, a AND NOT b, if a is TRUE and b is FALSE then the expression can evaluate as true.  
+Because of this we say the boolean expression, a AND NOT b can be satisfied.
 
 ## License
 
