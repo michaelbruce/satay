@@ -1,6 +1,6 @@
 (ns satay.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn satisfy
+  "Returns a solution given a set of values"
+  [values]
+  ["a" "b" "-c"])
